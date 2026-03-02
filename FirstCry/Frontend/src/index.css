@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #ff7043;
+  --color-brand-dark: #2c3e50;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-brand-dark;
+  }
+}
